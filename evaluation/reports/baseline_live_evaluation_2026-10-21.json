@@ -1,0 +1,1070 @@
+{
+  "manual": "sample-service-manual 1.pdf",
+  "top_k": 5,
+  "cases": [
+    {
+      "id": "rwd-brake-disc-shield-bolts",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "17",
+          "unit": "Nm"
+        },
+        {
+          "value": "150",
+          "unit": "lb-in"
+        }
+      ],
+      "expected_citation_pages": [
+        24
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": true,
+      "citation_correct": true,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        24,
+        25,
+        27,
+        48,
+        56
+      ],
+      "extracted_statuses": [
+        "found"
+      ],
+      "actual_values": [
+        {
+          "value": "17",
+          "unit": "Nm"
+        },
+        {
+          "value": "150",
+          "unit": "lb-in"
+        }
+      ],
+      "actual_citation_pages": [
+        24
+      ],
+      "failed_checks": []
+    },
+    {
+      "id": "rwd-brake-hose-bracket-bolt",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "12",
+          "unit": "Nm"
+        },
+        {
+          "value": "106",
+          "unit": "lb-in"
+        }
+      ],
+      "expected_citation_pages": [
+        24
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": false,
+      "citation_correct": true,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        24,
+        30,
+        43,
+        48,
+        56
+      ],
+      "extracted_statuses": [
+        "found",
+        "not_found"
+      ],
+      "actual_values": [
+        {
+          "value": "12",
+          "unit": "Nm"
+        }
+      ],
+      "actual_citation_pages": [
+        24
+      ],
+      "failed_checks": [
+        "extraction"
+      ]
+    },
+    {
+      "id": "rwd-lower-arm-nuts",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "350",
+          "unit": "Nm"
+        },
+        {
+          "value": "258",
+          "unit": "lb-ft"
+        }
+      ],
+      "expected_citation_pages": [
+        24
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": false,
+      "citation_correct": true,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        24,
+        25,
+        27,
+        30,
+        56
+      ],
+      "extracted_statuses": [
+        "found",
+        "not_found"
+      ],
+      "actual_values": [
+        {
+          "value": "350",
+          "unit": "Nm"
+        },
+        {
+          "value": "258",
+          "unit": "lb-ft"
+        }
+      ],
+      "actual_citation_pages": [
+        24
+      ],
+      "failed_checks": [
+        "extraction"
+      ]
+    },
+    {
+      "id": "rwd-lower-ball-joint-nut",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "175",
+          "unit": "Nm"
+        },
+        {
+          "value": "129",
+          "unit": "lb-ft"
+        }
+      ],
+      "expected_citation_pages": [
+        24
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": false,
+      "citation_correct": false,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        24,
+        27,
+        30,
+        35,
+        51
+      ],
+      "extracted_statuses": [],
+      "actual_values": [],
+      "actual_citation_pages": [],
+      "failed_checks": [
+        "extraction",
+        "citation",
+        "extraction_error"
+      ],
+      "error": "RuntimeError: Groq extraction request failed: Connection error."
+    },
+    {
+      "id": "rwd-shock-absorber-lower-nuts",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "90",
+          "unit": "Nm"
+        },
+        {
+          "value": "66",
+          "unit": "lb-ft"
+        }
+      ],
+      "expected_citation_pages": [
+        24
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": true,
+      "citation_correct": true,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        24,
+        25,
+        30,
+        45,
+        56
+      ],
+      "extracted_statuses": [
+        "found"
+      ],
+      "actual_values": [
+        {
+          "value": "90",
+          "unit": "Nm"
+        },
+        {
+          "value": "66",
+          "unit": "lb-ft"
+        }
+      ],
+      "actual_citation_pages": [
+        24
+      ],
+      "failed_checks": []
+    },
+    {
+      "id": "rwd-shock-absorber-upper-mount-nuts",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "63",
+          "unit": "Nm"
+        },
+        {
+          "value": "46",
+          "unit": "lb-ft"
+        }
+      ],
+      "expected_citation_pages": [
+        24
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": true,
+      "citation_correct": true,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        24,
+        25,
+        30,
+        45,
+        56
+      ],
+      "extracted_statuses": [
+        "found"
+      ],
+      "actual_values": [
+        {
+          "value": "63",
+          "unit": "Nm"
+        },
+        {
+          "value": "46",
+          "unit": "lb-ft"
+        }
+      ],
+      "actual_citation_pages": [
+        24
+      ],
+      "failed_checks": []
+    },
+    {
+      "id": "rwd-shock-rod-nut",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "55",
+          "unit": "Nm"
+        },
+        {
+          "value": "41",
+          "unit": "lb-ft"
+        }
+      ],
+      "expected_citation_pages": [
+        24
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": true,
+      "citation_correct": true,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        24,
+        30,
+        35,
+        43,
+        56
+      ],
+      "extracted_statuses": [
+        "found"
+      ],
+      "actual_values": [
+        {
+          "value": "55",
+          "unit": "Nm"
+        },
+        {
+          "value": "41",
+          "unit": "lb-ft"
+        }
+      ],
+      "actual_citation_pages": [
+        24
+      ],
+      "failed_checks": []
+    },
+    {
+      "id": "rwd-stabilizer-bar-bracket-nuts",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "55",
+          "unit": "Nm"
+        },
+        {
+          "value": "41",
+          "unit": "lb-ft"
+        }
+      ],
+      "expected_citation_pages": [
+        24
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": true,
+      "citation_correct": true,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        24,
+        25,
+        43,
+        56
+      ],
+      "extracted_statuses": [
+        "found"
+      ],
+      "actual_values": [
+        {
+          "value": "55",
+          "unit": "Nm"
+        },
+        {
+          "value": "41",
+          "unit": "lb-ft"
+        }
+      ],
+      "actual_citation_pages": [
+        24
+      ],
+      "failed_checks": []
+    },
+    {
+      "id": "rwd-stabilizer-bar-link-nuts",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "70",
+          "unit": "Nm"
+        },
+        {
+          "value": "52",
+          "unit": "lb-ft"
+        }
+      ],
+      "expected_citation_pages": [
+        24
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": false,
+      "citation_correct": false,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        24,
+        25,
+        30,
+        43
+      ],
+      "extracted_statuses": [],
+      "actual_values": [],
+      "actual_citation_pages": [],
+      "failed_checks": [
+        "extraction",
+        "citation",
+        "extraction_error"
+      ],
+      "error": "RuntimeError: Groq extraction request failed: Error code: 400 - {'error': {'message': \"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}"
+    },
+    {
+      "id": "rwd-tie-rod-end-nut",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "115",
+          "unit": "Nm"
+        },
+        {
+          "value": "85",
+          "unit": "lb-ft"
+        }
+      ],
+      "expected_citation_pages": [
+        24
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": false,
+      "citation_correct": false,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        24,
+        27,
+        35,
+        43,
+        51
+      ],
+      "extracted_statuses": [],
+      "actual_values": [],
+      "actual_citation_pages": [],
+      "failed_checks": [
+        "extraction",
+        "citation",
+        "extraction_error"
+      ],
+      "error": "RuntimeError: Groq extraction request failed: Error code: 400 - {'error': {'message': \"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}"
+    },
+    {
+      "id": "rwd-upper-arm-to-frame-nuts",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "150",
+          "unit": "Nm"
+        },
+        {
+          "value": "111",
+          "unit": "lb-ft"
+        }
+      ],
+      "expected_citation_pages": [
+        24
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": true,
+      "citation_correct": true,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        24,
+        27,
+        30,
+        48,
+        56
+      ],
+      "extracted_statuses": [
+        "found"
+      ],
+      "actual_values": [
+        {
+          "value": "150",
+          "unit": "Nm"
+        },
+        {
+          "value": "111",
+          "unit": "lb-ft"
+        }
+      ],
+      "actual_citation_pages": [
+        24
+      ],
+      "failed_checks": []
+    },
+    {
+      "id": "rwd-upper-ball-joint-nut",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "115",
+          "unit": "Nm"
+        },
+        {
+          "value": "85",
+          "unit": "lb-ft"
+        }
+      ],
+      "expected_citation_pages": [
+        24
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": false,
+      "citation_correct": false,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        24,
+        27,
+        30,
+        35,
+        51
+      ],
+      "extracted_statuses": [
+        "not_found"
+      ],
+      "actual_values": [],
+      "actual_citation_pages": [],
+      "failed_checks": [
+        "extraction",
+        "citation"
+      ]
+    },
+    {
+      "id": "rwd-wheel-bearing-hub-bolts",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "175",
+          "unit": "Nm"
+        },
+        {
+          "value": "129",
+          "unit": "lb-ft"
+        }
+      ],
+      "expected_citation_pages": [
+        24
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": true,
+      "citation_correct": true,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        24,
+        25,
+        27,
+        48,
+        56
+      ],
+      "extracted_statuses": [
+        "found"
+      ],
+      "actual_values": [
+        {
+          "value": "175",
+          "unit": "Nm"
+        },
+        {
+          "value": "129",
+          "unit": "lb-ft"
+        }
+      ],
+      "actual_citation_pages": [
+        24
+      ],
+      "failed_checks": []
+    },
+    {
+      "id": "rwd-wheel-speed-sensor-bolt",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "18",
+          "unit": "Nm"
+        },
+        {
+          "value": "159",
+          "unit": "lb-in"
+        }
+      ],
+      "expected_citation_pages": [
+        24
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": false,
+      "citation_correct": true,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        24,
+        27,
+        48,
+        56
+      ],
+      "extracted_statuses": [
+        "found",
+        "not_found"
+      ],
+      "actual_values": [
+        {
+          "value": "18",
+          "unit": "Nm"
+        }
+      ],
+      "actual_citation_pages": [
+        24
+      ],
+      "failed_checks": [
+        "extraction"
+      ]
+    },
+    {
+      "id": "rwd-wheel-speed-sensor-harness-bracket-bolt",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "12",
+          "unit": "Nm"
+        },
+        {
+          "value": "106",
+          "unit": "lb-in"
+        }
+      ],
+      "expected_citation_pages": [
+        24
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": true,
+      "citation_correct": true,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        24,
+        27,
+        48,
+        56
+      ],
+      "extracted_statuses": [
+        "found"
+      ],
+      "actual_values": [
+        {
+          "value": "12",
+          "unit": "Nm"
+        },
+        {
+          "value": "106",
+          "unit": "lb-in"
+        }
+      ],
+      "actual_citation_pages": [
+        24
+      ],
+      "failed_checks": []
+    },
+    {
+      "id": "4wd-halfshaft-nut",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "40",
+          "unit": "Nm"
+        },
+        {
+          "value": "30",
+          "unit": "lb-ft"
+        }
+      ],
+      "expected_citation_pages": [
+        59
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": true,
+      "citation_correct": true,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        59,
+        73,
+        114,
+        127
+      ],
+      "extracted_statuses": [
+        "found"
+      ],
+      "actual_values": [
+        {
+          "value": "40",
+          "unit": "Nm"
+        },
+        {
+          "value": "30",
+          "unit": "lb-ft"
+        }
+      ],
+      "actual_citation_pages": [
+        59
+      ],
+      "failed_checks": []
+    },
+    {
+      "id": "4wd-integrated-wheel-end-bolts",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "12",
+          "unit": "Nm"
+        },
+        {
+          "value": "106",
+          "unit": "lb-in"
+        }
+      ],
+      "expected_citation_pages": [
+        59
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": false,
+      "citation_correct": true,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        59,
+        73,
+        114,
+        127
+      ],
+      "extracted_statuses": [
+        "found",
+        "not_found"
+      ],
+      "actual_values": [
+        {
+          "value": "12",
+          "unit": "Nm"
+        }
+      ],
+      "actual_citation_pages": [
+        59
+      ],
+      "failed_checks": [
+        "extraction"
+      ]
+    },
+    {
+      "id": "4wd-svt-raptor-shock-lower-nut",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "550",
+          "unit": "Nm"
+        },
+        {
+          "value": "406",
+          "unit": "lb-ft"
+        }
+      ],
+      "expected_citation_pages": [
+        59
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": true,
+      "citation_correct": true,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        59,
+        63,
+        77,
+        84,
+        108
+      ],
+      "extracted_statuses": [
+        "found"
+      ],
+      "actual_values": [
+        {
+          "value": "550",
+          "unit": "Nm"
+        },
+        {
+          "value": "406",
+          "unit": "lb-ft"
+        }
+      ],
+      "actual_citation_pages": [
+        59
+      ],
+      "failed_checks": []
+    },
+    {
+      "id": "4wd-skid-plate-bolts",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "48",
+          "unit": "Nm"
+        },
+        {
+          "value": "35",
+          "unit": "lb-ft"
+        }
+      ],
+      "expected_citation_pages": [
+        59
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": true,
+      "citation_correct": true,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        59,
+        73,
+        108,
+        127
+      ],
+      "extracted_statuses": [
+        "found"
+      ],
+      "actual_values": [
+        {
+          "value": "48",
+          "unit": "Nm"
+        },
+        {
+          "value": "35",
+          "unit": "lb-ft"
+        }
+      ],
+      "actual_citation_pages": [
+        59
+      ],
+      "failed_checks": []
+    },
+    {
+      "id": "4wd-svt-raptor-stabilizer-link-nuts",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "80",
+          "unit": "Nm"
+        },
+        {
+          "value": "59",
+          "unit": "lb-ft"
+        }
+      ],
+      "expected_citation_pages": [
+        59
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": true,
+      "citation_correct": true,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        59,
+        77,
+        108
+      ],
+      "extracted_statuses": [
+        "found"
+      ],
+      "actual_values": [
+        {
+          "value": "80",
+          "unit": "Nm"
+        },
+        {
+          "value": "59",
+          "unit": "lb-ft"
+        }
+      ],
+      "actual_citation_pages": [
+        59
+      ],
+      "failed_checks": []
+    },
+    {
+      "id": "ball-joint-measurement-position",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "full rebound",
+          "unit": null
+        }
+      ],
+      "expected_citation_pages": [
+        8
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": false,
+      "citation_correct": false,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        8,
+        9,
+        10
+      ],
+      "extracted_statuses": [
+        "not_found"
+      ],
+      "actual_values": [],
+      "actual_citation_pages": [],
+      "failed_checks": [
+        "extraction",
+        "citation"
+      ]
+    },
+    {
+      "id": "lower-ball-joint-inspection-steps",
+      "expected_status": "found",
+      "expected_values": [
+        {
+          "value": "Steps 4 through 6",
+          "unit": null
+        }
+      ],
+      "expected_citation_pages": [
+        8
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": false,
+      "citation_correct": false,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        8,
+        9,
+        10,
+        75
+      ],
+      "extracted_statuses": [
+        "not_found"
+      ],
+      "actual_values": [],
+      "actual_citation_pages": [],
+      "failed_checks": [
+        "extraction",
+        "citation"
+      ]
+    },
+    {
+      "id": "ball-joint-fluid-capacity-missing",
+      "expected_status": "not_found",
+      "expected_values": [],
+      "expected_citation_pages": [],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": true,
+      "citation_correct": true,
+      "missing_value_detected": true,
+      "retrieved_pages": [
+        8,
+        10,
+        53,
+        122,
+        333
+      ],
+      "extracted_statuses": [
+        "not_found"
+      ],
+      "actual_values": [],
+      "actual_citation_pages": [],
+      "failed_checks": []
+    },
+    {
+      "id": "ball-joint-part-number-missing",
+      "expected_status": "not_found",
+      "expected_values": [],
+      "expected_citation_pages": [],
+      "retrieval_recall_at_k": 0.0,
+      "extraction_correct": true,
+      "citation_correct": true,
+      "missing_value_detected": true,
+      "retrieved_pages": [
+        35,
+        51,
+        77,
+        121,
+        122
+      ],
+      "extracted_statuses": [
+        "not_found"
+      ],
+      "actual_values": [],
+      "actual_citation_pages": [],
+      "failed_checks": [
+        "retrieval_recall_at_k"
+      ]
+    },
+    {
+      "id": "4wd-shock-lower-nut-unspecified-variant",
+      "expected_status": "ambiguous",
+      "expected_values": [
+        {
+          "value": "90",
+          "unit": "Nm"
+        },
+        {
+          "value": "550",
+          "unit": "Nm"
+        }
+      ],
+      "expected_citation_pages": [
+        59
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": false,
+      "citation_correct": false,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        59,
+        63,
+        84,
+        94
+      ],
+      "extracted_statuses": [
+        "found"
+      ],
+      "actual_values": [
+        {
+          "value": "90",
+          "unit": "Nm"
+        }
+      ],
+      "actual_citation_pages": [
+        59
+      ],
+      "failed_checks": [
+        "extraction",
+        "citation"
+      ]
+    },
+    {
+      "id": "4wd-stabilizer-link-unspecified-variant",
+      "expected_status": "ambiguous",
+      "expected_values": [
+        {
+          "value": "70",
+          "unit": "Nm"
+        },
+        {
+          "value": "80",
+          "unit": "Nm"
+        }
+      ],
+      "expected_citation_pages": [
+        59
+      ],
+      "retrieval_recall_at_k": 1.0,
+      "extraction_correct": false,
+      "citation_correct": false,
+      "missing_value_detected": null,
+      "retrieved_pages": [
+        59,
+        61,
+        73,
+        108
+      ],
+      "extracted_statuses": [
+        "found"
+      ],
+      "actual_values": [
+        {
+          "value": "70",
+          "unit": "Nm"
+        }
+      ],
+      "actual_citation_pages": [
+        59
+      ],
+      "failed_checks": [
+        "extraction",
+        "citation"
+      ]
+    }
+  ],
+  "metrics": {
+    "retrieval_recall_at_k": 0.9615384615384616,
+    "extraction_accuracy": 0.5384615384615384,
+    "citation_accuracy": 0.6923076923076923,
+    "missing_value_detection": 1.0,
+    "case_count": 26,
+    "missing_case_count": 2
+  }
+}

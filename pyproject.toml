@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vehicle-specification-extractor"
+version = "1.0.0"
+description = "Evidence-grounded vehicle specification extraction from workshop manuals"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "chromadb==1.5.9",
+    "langchain-text-splitters==1.1.2",
+    "sentence-transformers==5.6.0",
+    "pydantic==2.13.4",
+    "python-dotenv==1.2.2",
+    "groq==1.5.0",
+    "pypdf==6.14.2",
+    "streamlit==1.59.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1"]
+
+[project.scripts]
+vehicle-spec-extractor = "vehicle_spec_extractor.cli:main"
+vehicle-spec-evaluate = "vehicle_spec_extractor.evaluate:main"
+
+[tool.setuptools.packages.find]
+include = ["vehicle_spec_extractor*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
